@@ -1,0 +1,24 @@
+train: "/content/drive/MyDrive/Yolo/yolov5/data_images/train"
+val: "/content/drive/MyDrive/Yolo/yolov5/data_images/test"
+nc : 20
+names : ['person',
+        'car',
+        'chair',
+        'bottle',
+        'pottedplant',
+        'bird',
+        'dog',
+        'sofa',
+        'bicycle',
+        'horse',
+        'boat',
+        'motorbike',
+        'cat',
+        'tvmonitor',
+        'cow',
+        'sheep',
+        'aeroplane',
+        'train',
+        'diningtable',
+        'bus'
+]
