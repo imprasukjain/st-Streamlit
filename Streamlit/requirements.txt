@@ -6,5 +6,4 @@ jupyter
 labelImg
 streamlit
 streamlit-webrtc
-altair==4.0.0
-vega-lite==4.0.0
+
