@@ -5,7 +5,7 @@ from Yolo_Prediction_file import YOLO_Pred
 
 st.set_page_config(page_title='Real Time Object Detection',layout='wide',page_icon='./images/camera.png')
 
-yolo = YOLO_Pred(onnx_model='./model/best.onnx', data_yaml='./model/data.yaml')
+yolo = YOLO_Pred(onnx_model='Streamlit/model/best.onnx', data_yaml='Streamlit/model/data.yaml')
 def video_frame_callback(frame):
     img = frame.to_ndarray(format="bgr24")
 
