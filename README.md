@@ -53,9 +53,10 @@ The project repository has the following structure:
 ## Contributions
 
 Contributions to this project are welcome. If you find any issues or have suggestions for improvement, feel free to open an issue or submit a pull request on the project's GitHub repository.
+<br>
 I am looking for a person who can help me to deploy this web application for real time object detection also, Currently there are some issues in streamlit community server and there is no fix for that.
 
 ## Contact
 
 You can contact me on your email address 
-<a href="mailto:p.jain161202@gmail.com">Contact us !</a>
+<a href="mailto:p.jain161202@gmail.com">Contact me!!!</a>
