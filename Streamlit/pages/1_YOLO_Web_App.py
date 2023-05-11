@@ -23,7 +23,7 @@ def Upload_Image():
         #st.json(file_details)
         if file_details['File-type'] in ('image/png','image/jpeg'):
             st.success("File Uploaded")
-            path = os.path.join('./Uploads', image_file.name)
+            path = os.path.join('Streamlit/Uploads', image_file.name)
             with open(path, mode='wb') as f:
                 f.write(image_file.getbuffer())
             return {"Image":image_file,
