@@ -9,7 +9,7 @@ st.set_page_config(page_title='YOLO Web App',layout='wide',page_icon='./images/o
 st.title("Welcome to Object Detection App")
 st.write("Loading Your Model....")
 with st.spinner("Please wait for your model to load"):
-    yolo = YOLO_Pred(onnx_model='./model/best.onnx',data_yaml='data.yaml')
+    yolo = YOLO_Pred(onnx_model='./model/best.onnx',data_yaml='Streamlit/model/data.yaml')
     st.success("Model Loaded Successfully")
 
 #Upload_Image
